@@ -12,10 +12,12 @@ body{
 
 .container{
     max-width: 1600px;
-    background-color: #303030;
-    /* position: relative; */
-    /* padding: 10px 12px; */
+}
 
+.row {
+    /* width: 1600px; */
+    background-color: #303030;
+    /* background-color: red; */
 }
 
 a{
@@ -32,12 +34,13 @@ li{
 .header{
     width: 100%;
     height: 75px;
-    background-color: black;
 }
 
 .wrap-header-top{
     height: 100%;
     width: 1600px;
+    background-color: black;
+
 }
 
 .header-top{
@@ -79,6 +82,12 @@ li{
     cursor: pointer;
 }
 
+/* --- Slider --- */
+
+.slider{
+    width: 1600px;
+}
+
 .slider .owl-nav span{
     font-size: 45px;
     color: #fff;
@@ -113,16 +122,65 @@ li{
     left: 0;
 }
 
+/* --- Main --- */
 .logo{
-    width: 515px;
+    width: 100%;
     height: 470px;
-    background-color: red;
-    margin-top: 20px;
+    margin-top: 15px;
+    background-image: url(/assets/img/Main/kidmeal.png);
+    object-fit: cover;
+    background-position-x: 52%;
+    background-position-y: 45%;
+    opacity: .5;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgba(77,77,77,0.8);
+    
+}
+
+.logo:hover{
+    opacity: 1;
+}
+
+.logo .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo .title p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.logo .title h3{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
 }
 
 
-.logo img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.logo .detail{
+    width: 300px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    border: 2px solid rgba(77,77,77,0.8);
+    background-color: #1f1f1f;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+
+.logo .detail p{
+    margin-top: 12px;
+    font-size: 20px;
 }

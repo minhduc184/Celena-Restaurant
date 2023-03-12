@@ -22,3 +22,48 @@ $(document).ready(function(){
       }
   })
 });
+
+
+
+
+
+const API_URL_MAINITEMS = "https://celena-restaurant-api.vercel.app/main-item";
+const URL = "https://celena-restaurant-api.vercel.app";
+
+async function getMainItemAPI(API_URL_MAINITEMS){
+    const res = await axios.get(`${API_URL_MAINITEMS}`);
+    const data = await res.data.result;
+
+    showMainItem(data);
+}
+
+getMainItemAPI(API_URL_MAINITEMS)
+
+
+function showMainItem(data){
+    let htmlCode =``;
+    
+    data.map(function(main-item){
+        htmlCode+=`<div class="col-12 col-sm-4 col-md-4">
+        <div class="logo">
+          <div class="title">
+            <p>${main-item.description}</p>
+            <h3>${main-item.title}</h3>
+          </div>
+          <div class="detail">
+            <p>FIND OUT MORE</p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>`
+
+      const content = document.querySelector('.main-item .row');
+      content.innerHTML = htmlCode;
+    });
+
+}
+getMainItemAPI();
+
+
+
+
