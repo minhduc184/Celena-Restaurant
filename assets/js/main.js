@@ -45,16 +45,17 @@ function showMainItem(data){
     let htmlCode =``;
     
     data.map(function(item){
-        htmlCode+=`<div class="col-12 col-sm-4 col-md-4">
-        <div class="logo">
-          <div class="title">
-            <p>${item.description}</p>
-            <h3>${item.title}</h3>
-          </div>
-          <div class="detail">
-            <p>FIND OUT MORE</p>
-            <i class="fa-solid fa-arrow-right"></i>
-          </div>
+        htmlCode+=`<div class="logo">
+        <img src="" alt="">
+      </div>
+      <div class="inner">
+        <div class="title">
+          <p>${item.description}</p>
+          <h3>${item.title}</h3>
+        </div>
+        <div class="detail">
+          <p>FIND OUT MORE</p>
+          <i class="fa-solid fa-arrow-right"></i>
         </div>
       </div>`
 
