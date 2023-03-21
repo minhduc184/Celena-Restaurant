@@ -1,3 +1,5 @@
+
+
 // --- Slider --- //
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
@@ -24,17 +26,13 @@ $(document).ready(function(){
   })
 });
 
-
-
-
 // --- API-Main --- //
-const API_URL_MAINITEMS = "https://celena-restaurant-api.vercel.app/main-item";
+const API_URL_APPERTIZER = "https://celena-restaurant-api.vercel.app/appertizer-menu";
 const URL = "https://celena-restaurant-api.vercel.app";
 
-getMainItemAPI(API_URL_MAINITEMS)
-
-async function getMainItemAPI(API_URL_MAINITEMS){
-    const res = await axios.get(`${API_URL_MAINITEMS}`);
+getMainItemAPI(API_URL_APPERTIZER);
+async function getMainItemAPI(API_URL_APPERTIZER){
+    const res = await axios.get(`${API_URL_APPERTIZER}`);
     const data = await res.data;
 
 
@@ -45,32 +43,29 @@ function showMainItem(data){
     let htmlCode =``;
     const IMG = 'https://celena-restaurant-api.vercel.app/'
     data.map(function(item){
-    htmlCode+=`<div class="col-12 col-sm-6 col-md-4">
-    
-    <a href="../detail.html?id=${item.id}">
-        <div class="logo">
-            <img src="${IMG + item.image}" alt="">
-            <div class="inner">
-            <div class="title">
-                <p>${item.description}</p>
-                <h3>${item.title}</h3>
-            </div>
-            <div class="detail">
-                <p>FIND OUT MORE</p>
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-            </div>
+    htmlCode+=
+    `<div class="col-12 col-sm-12 col-md-6">
+    <div class="item-menu">
+      <div class="logo-menu">
+        <img src="${IMG + item.image}" alt="">
+      </div>
+      <div class="description-menu">
+        <div class="name-menu">
+          <h1>${item.title}</h1>
         </div>
-    </a>
+        <div class="descrip-menu">
+          <p>${item.description}</p> 
+        </div>
+        <div class="price-menu">
+          <p>${item.price}</p>
+        </div>
+      </div>
     
-    </div>`
+    </div>
+      
+  </div>`
 
     const content = document.querySelector('.main .row');
     content.innerHTML = htmlCode;
     });
-}
-
-
-
-
-
+ }

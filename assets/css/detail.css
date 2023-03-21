@@ -36,7 +36,8 @@ li{
     background-color: black;
     position: sticky;
     top: 0;
-    z-index: 99;
+    z-index: 999;
+    font-weight: 500;
 }
 
 .header-top{
@@ -105,88 +106,104 @@ li{
     left: 0;
 }
 
-/* --- Main --- */
-.logo{
-    height: 470px;
-    cursor: pointer;
-    border: 3px solid rgba(77,77,77,0.8);
-    transition: all 1s ;
+/* --- Title-Menu --- */
+.title-menu{
+    text-align: center;
+    padding: 40px;
     background-color: #303030;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    position: relative;
+    width: 100%;
 }
 
-.logo img{
+.title-menu h1{
+    color: #fff;
+    font-size: 120px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+/* --- Item-Menu --- */
+.item-menu{
+    display: flex;
+    margin-top: 5px;
+    border: 2px solid #fff;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+/* --- Logo-Menu --- */
+.logo-menu{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-menu img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-right: 3px solid #fff;
 }
 
-.logo::before{
-    position: absolute;
-    content: "";
+/* --- Description-Menu --- */
+.description-menu{
+    background-color: #505050;
     width: 100%;
     height: 100%;
-    background-color: #000;
-    opacity: .5;
-    display: inline-block;
-    z-index: 2;
 }
 
-.logo:hover::before{
-    opacity: 0.2;
-    transition: all 1.5s;
-}
-
-
-.inner{
+.description-menu .name-menu{
+    width: 100%;
+    height: 15%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    z-index: 3;
-    top: 44%;
-    width: 100%;;
-    height: 258px;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.inner .title{
+.description-menu h1, .description-menu p{
+    margin-left: 30px;
+    color: #fff;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.description-menu h1{
+    font-weight: 900;   
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Zilla Slab', serif;
+    font-size: 37px;
+}
+
+.description-menu p{
+    margin-left: 30px;
+    font-size: 27px;
+    margin-top: 9px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 100;
+}
+
+.description-menu .name-menu, .descrip-menu{
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.inner .title p{
-    font-size: 16px;
-    color: #fff;
-    font-weight: 600;
+.descrip-menu{
+    height: 65%;
 }
 
-.inner .title h3{
-    font-size: 35px;
-    color: #fff;
-    font-weight: 700;
-    opacity: 1;
+.price-menu{
+    height: 20%;
 }
 
-.inner .detail{
-    width: 300px;
-    height: 68px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 24px;
-    border: 2px solid rgba(77,77,77,0.8);
-    background-color: #1f1f1f;
-    margin-top: 50px;
-    color: #fff;
-    margin-bottom: 50px;
-}
-
-.inner .detail p{
-    margin-top: 12px;
-    font-size: 20px;
+.price-menu p{
+    color: yellow;
 }
 
 /* --- Box-Text --- */
