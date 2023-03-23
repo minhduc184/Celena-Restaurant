@@ -27,10 +27,11 @@ $(document).ready(function(){
 });
 
 // --- API-Main --- //
-const API_URL_APPERTIZER = "https://celena-restaurant-api.vercel.app/appertizer-menu";
+const API_URL_APPERTIZER = "https://celena-restaurant-api.vercel.app/veganfood-menu";
 const URL = "https://celena-restaurant-api.vercel.app";
 
-getMainItemAPI(API_URL_APPERTIZER);
+getMainItemAPI(API_URL_APPERTIZER)
+
 async function getMainItemAPI(API_URL_APPERTIZER){
     const res = await axios.get(`${API_URL_APPERTIZER}`);
     const data = await res.data;
@@ -68,4 +69,4 @@ function showMainItem(data){
     const content = document.querySelector('.main .row');
     content.innerHTML = htmlCode;
     });
- }
+}

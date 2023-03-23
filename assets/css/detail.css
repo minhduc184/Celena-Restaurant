@@ -151,12 +151,20 @@ li{
     height: 100%;
 }
 
-.description-menu .name-menu{
+.name-menu{
     width: 100%;
-    height: 15%;
+    height: 30%;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.descrip-menu{
+    height: 50%;
+}
+
+.price-menu{
+    height: 20%;
 }
 
 .description-menu h1, .description-menu p{
@@ -180,7 +188,6 @@ li{
 .description-menu p{
     margin-left: 30px;
     font-size: 27px;
-    margin-top: 9px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Lobster', cursive;
@@ -192,14 +199,6 @@ li{
 
 .description-menu .name-menu, .descrip-menu{
     display: flex;
-}
-
-.descrip-menu{
-    height: 65%;
-}
-
-.price-menu{
-    height: 20%;
 }
 
 .price-menu p{
