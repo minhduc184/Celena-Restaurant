@@ -27,7 +27,7 @@ $(document).ready(function(){
 });
 
 // --- API-Main --- //
-const API_URL_APPERTIZER = "https://celena-restaurant-api.vercel.app/veganfood-menu";
+const API_URL_APPERTIZER = "https://celena-restaurant-api.vercel.app/appertizer-menu";
 const URL = "https://celena-restaurant-api.vercel.app";
 
 getMainItemAPI(API_URL_APPERTIZER)
