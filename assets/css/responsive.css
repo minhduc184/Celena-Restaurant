@@ -1,101 +1,223 @@
-@media screen and (max-width:1199px) {
-    .inner .detail{
-    width: 250px;
-    height: 50px;
-    }
-
-    .inner .title h3{
-        font-size: 31px;
-    }
-
-    .inner .title p {
-        font-size: 13px;
-    }
-
-    .inner .detail p {
-        font-size: 18px;
-        font-weight: 600;
-    }
-
-    a{
-        font-size: 17px;
-    }
-
-    .wrap-box-text {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width:991px) {
-
-    .header-top-right {
-        width: 56%;
-    }
-
-    .inner .detail{
-    width: 210px;
-    height: 50px;
-    }
-
-    .inner .title h3{
-        font-size: 31px;
-    }
-
-    .inner .title p {
-        font-size: 13px;
-    }
-
-    .inner .detail p {
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    a{
-        font-size: 14px;
-    }
-
+@media screen and (max-width:1024px) {
     h1{
-        font-size: 30px;
-    }
-}
-
-
-@media screen and (max-width:891px) {
-    .inner .detail{
-    width: 190px;
-    height: 40px;
-    }
-
-    .inner .title h3{
-        font-size: 24px;
-    }
-
-    .inner .title p {
-        font-size: 10px;
-    }
-
-    .inner .detail p {
-        font-size: 13px;
-        font-weight: 600;
-        margin-right: 10px;
-    }
-
-    .fas, .fa-solid {
-        font-weight: 100;
-    }
-}
-
-@media screen and (max-width:767px) {
-    h1{
-        font-size: 26px;
-        padding: 12px 0 ;
+        padding: 12px 0;
     }
 
     .header-top-right .menu{
         display: none;
     }
+
+    .inner .detail{
+        padding: 0 20px;
+    }
+
+    
+    .inner .title h3{
+        font-size: 31px;
+    }
+
+    .inner .title p {
+        font-size: 13px;
+    }
+
+    .inner .detail p {
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 14px;
+    }
+
+    .wrap-box-text {
+        text-align: center;
+    }
+
+    .wrap-box-text p{
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width:812px) {
+    h1{
+        font-size: 26px;
+    }
+
+    .inner .detail{
+        padding: 0 11px;
+        height: 15%;
+    }
+
+    .inner .title h3{
+        font-size: 25px;
+    }
+
+    .inner .title p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .inner .detail p {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    
+    .inner .detail i {
+        font-size: 10px;
+    }   
+
+}
+
+@media screen and (max-width:768px) {
+    .inner .title p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .inner .detail{
+        padding: 0 13px;
+        height: 15%;
+    }
+
+    .inner .detail{
+        padding: 0 8px;
+    }
+
+    .inner .detail p {
+        font-size: 11px;
+        margin-top: 16px;
+    }
+
+    .inner .detail i {
+        font-size: 10px;
+    }   
+}
+
+@media screen and (max-width:736px) {
+    .inner .title p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .inner .detail{
+        padding: 0 20px;
+    }
+
+    .inner .detail p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .inner .detail i {
+        font-size: 13px;
+    }   
+}
+
+@media screen and (max-width:667px) {
+    .inner .detail{
+        padding: 0 17px;
+    }
+
+    .inner .detail p {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 23px;
+    }
+
+    .inner .detail{
+        padding: 0 11px;
+    }
+
+    .inner .detail p {
+        font-size: 13px;
+        margin-top: 14px;
+    }
+
+    .inner .detail i {
+        font-size: 12px;
+    }  
+}
+
+@media screen and (max-width:568px) {
+    .inner .detail{
+        padding: 0 20px;
+        width: 52%;
+        height: 20%;
+    }
+
+    .inner .detail p {
+        font-size: 17px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    h1{
+        font-size: 18px;
+        padding: 12px 0 12px 10px;
+    }
+
+    .inner .detail{
+        padding: 0 15px;
+    }
+
+    .inner .detail p {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .inner .detail i {
+        font-size: 13px;
+    }  
 }
 
 
+@media screen and (max-width:375px) {
+    h1{
+        font-size: 16px;
+    }
+
+    .inner .detail{
+        padding: 0 9px;
+    }
+
+    .inner .detail p {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    h1{
+        font-size: 14px;
+    }
+
+    .inner .title p{
+        font-size: 12px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .inner .detail{
+        padding: 0 8px;
+        height: 15%;
+    }
+
+    .inner .detail p {
+        font-size: 11px;
+        margin-top: 16px;
+    }
+
+    .inner .detail i {
+        font-size: 10px;
+    }  
+
+    .wrap-box-text p{
+        font-size: 14px;
+    }
+}
 
 

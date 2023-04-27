@@ -27,8 +27,13 @@ $(document).ready(function(){
 });
 
 // --- API-Main --- //
-const API_URL_APPERTIZER = "https://celena-restaurant-api.vercel.app/appertizer-menu";
+const API_URL_APPERTIZER = "https://celena-restaurant-api.vercel.app/appertizer-menu/";
 const URL = "https://celena-restaurant-api.vercel.app";
+
+
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get('id');
+console.log(id);
 
 getMainItemAPI(API_URL_APPERTIZER)
 
@@ -36,6 +41,8 @@ async function getMainItemAPI(API_URL_APPERTIZER){
     const res = await axios.get(`${API_URL_APPERTIZER}`);
     const data = await res.data;
 
+
+    
 
     showMainItem(data);
 }
