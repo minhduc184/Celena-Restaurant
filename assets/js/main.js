@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 // --- API-Main --- //
 const API_URL_MAINITEMS = "https://celena-restaurant-api.vercel.app/main-item";
-// const URL = "https://celena-restaurant-api.vercel.app";
+const URL = "https://celena-restaurant-api.vercel.app";
 
 getMainItemAPI(API_URL_MAINITEMS)
 
