@@ -105,6 +105,9 @@ li{
 }
 
 /* --- Main --- */
+.main{
+    font-family: 'Fjord', sans-serif;
+}
 
 .title-list{
     /* height: 100%; */
@@ -113,7 +116,7 @@ li{
     align-items: center;
     justify-content: center;
     color: #fff;
-    padding-top: 24px;
+    padding: 24px 0;
     background-color: #303030;
 }
 .title-top{
@@ -121,28 +124,16 @@ li{
     flex-direction: column;
     align-items: center;
 }
-.title-top h2{
+
+.title-top h3{
     font-size: 40px;
 }
 
-.title-bottom{
-    width: 55%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 16px;
-}
-
-.title-bottom h3{
+.title-top h4{
     font-size: 24px;
 }
 
-.title-bottom p{
-    font-size: 20px;
-}
-
-
-.title-bottom .order p{
+.order p{
     border: 2px solid #fff;
     padding: 12px 28px;
     border-radius: 25px;
@@ -151,6 +142,28 @@ li{
     color: #EBFF00;
     letter-spacing: 0.12em;
     background-color: #484848;
+}
+
+/* --- Nav-tap --- */
+.nav {
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.nav-tabs{
+    border-bottom: none;
+    background-color: #303030;
+}
+
+.nav-link{
+    color: #ADADAD;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 4px 8px;
+}
+
+.nav-tabs .nav-link {
+    border-radius: var(--bs-nav-tabs-border-radius);
 }
 
 /* --- Items --- */
