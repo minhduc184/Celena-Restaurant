@@ -178,7 +178,7 @@ li{
     border-radius: 50%;
     overflow: hidden;
     padding-top: 100%;
-    background-position-y: 76%;
+    background-position-y: 63%;
     background-position-x: 50%;
     background-size: cover
 }
@@ -258,6 +258,7 @@ li{
     padding: 0 24px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .wrap-middle .about-us{
@@ -345,3 +346,4 @@ li{
     border-radius: 5px;
 
 }
+
