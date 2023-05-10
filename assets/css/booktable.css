@@ -1,0 +1,100 @@
+.opacity-100{
+    border: 3px solid #fff;
+}
+
+.wrap-content{
+    background-color: #000;
+    position: relative; 
+}
+
+.wrap-form{
+    background-color: #242424;
+    height: 1000px;
+}
+
+.title-book-table{
+    width: 100%;
+    height: 459px;
+    background-size: cover;
+    background-position-y: 60%;
+    opacity: .3;
+    background-color: black;
+}
+
+.book-table-description{
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 21%;
+}
+
+.book-table-description h3{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.book-table-description h4{
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* --- Form --- */
+.basic-form form 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+label 
+{
+    margin: 24px 0 0 12px;
+    color: #cbc7c7;
+}
+
+textarea{
+    height: 300px;
+}
+
+.form-booktable, textarea {
+    padding: 16px;
+    border-radius: 5px;
+    border: rgba(77,77,77,0.8) 1px solid;
+    margin-top: 24px;
+    background-color:   #282828;
+    color: #cbc7c7;
+} 
+
+.form-booktable::placeholder{
+    color: #cbc7c7;
+}
+
+.form-booktable:focus{
+    background-color: #484848;
+    color: #cbc7c7;
+}
+
+input[type="radio"] {
+    width: 13px;
+    height: 13px;
+}
+  
+.submit-book-table{
+    background-color: #D3D3D3;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 24px 0px;
+}
+
+/* label[for="cancellation-policy"], label[for="terms-conditions"], label[for="hold-time"], label[for="confirmation"] {
+    display: block;
+    margin-top: 10px;
+} */
+
+
