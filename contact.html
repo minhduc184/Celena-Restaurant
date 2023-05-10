@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="/lib/fontawesome-free-6.2.1-web/css/fontawesome.css">
   <link rel="stylesheet" href="/lib/fontawesome-free-6.2.1-web/css/solid.css">
   <link href="https://fonts.cdnfonts.com/css/fjord" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
                 
   <!-- Import OwlCaroulsel -->
   <link rel="stylesheet" href="/lib/owlcarousel/assets/owl.carousel.min.css">
@@ -20,11 +19,11 @@
   <link rel="stylesheet" href="/lib/boostrap/css/bootstrap.min.css">
   <!-- Import CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/booktable.css">
   <!-- <link rel="stylesheet" href="/assets/css/responsive.css"> -->
 </head>
 <body>
   <!-- Header -->
+
   <div class="header-sticky">
   <div class="container">
     <div class="header-content">
@@ -61,39 +60,8 @@
   </div>
 
   <!-- Main -->
-  <div class="main">
-    <div class="container">
-      <div class="wrap-content">
-        <div class="title-book-table" style="background-image: url(/assets/img/Booktable/CroppedFocusedImage80035050-50-LC-PDE.jpg);"></div>
-        <div class="book-table-description">
-          <h3> Book a table</h3>
-          <hr class="opacity-100">
-          <h4>CHECK AVAILABILITY & BOOK NOW (UP TO 12 GUESTS)</h4>
-        </div>
-      </div>
-      <div class="wrap-form">
-        <div class="basic-form">
-          <form>
-            <input class="form-booktable" type="text" id="name" name="name" placeholder="Full Name" required>
-
-            <input class="form-booktable" type="date" id="date" name="date" required>       
-
-            <input class="form-booktable" type="time" id="time" name="time" required>
-
-            <input class="form-booktable" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
-
-            <input class="form-booktable"  type="email" id="email" name="email" placeholder="Email" required>
-
-            <label for="special-requests">Special Requests:</label>
-            <textarea id="special-requests" name="special-requests"></textarea>
-          
-            <button type="submit" class="submit-book-table">BOOK A TABLE</button>
-          </form>
-        </div>
-      </div>
-      
-    </div>
-  </div>
+ 
+  
 
 
   <!-- Footer -->
@@ -118,9 +86,36 @@
       <div class="footer-bottom">
         <p>Celena Restaurants& ©Copyright 2023 www.celenarestaurants.com</p>
       </div>
-    </div>
+  </div>
 
   </div>
+  
+  <div class="footer-sticky">
+    <div class="container">
+      
+      <form class="book-table">
+        <div class="form-group">
+          <input type="text" class="form-control" id="guestName" placeholder="*Enter name" required>
+        </div>
+        <div class="form-group">
+          <input type="date" class="form-control" id="date"  required>
+        </div>
+        <div class="form-group">
+          <input type="time" class="form-control" id="time" required>
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control" id="partySize" min="1" max="10" placeholder="*Party size 1-10" required>
+        </div>
+        <div class="larger-group">
+          <p>Larger group? </p>
+          <a href="/book-table.html">Enquire here</a>
+        </div>
+        <button type="submit" class="btn btn-primary">BOOK A TABLE</button>
+      </form>
+    
+    </div>
+  </div>
+
 
   <!-- Import thu vien axios --> 
   <script src="/lib/axios.min.js"></script>
