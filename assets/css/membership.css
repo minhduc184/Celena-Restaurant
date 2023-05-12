@@ -1,6 +1,3 @@
-.main{
-    height: 1850px;
-}
 .opacity-100{
     border: 3px solid #fff;
 }
@@ -8,6 +5,10 @@
 .wrap-content{
     background-color: #000;
     position: relative; 
+}
+
+.book-table-description h3{
+    letter-spacing: 2px;
 }
 
 .wrap-form{
@@ -37,9 +38,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 24px;
+    padding-top: 24px;
     color: #fff;
     text-align: center;
+    background-color: #242424;
 }
 
 .begin-membership-title{
@@ -54,6 +56,11 @@
     font-size: 18px;
     letter-spacing: 2px;
     height: 300px;
+}
+
+.basic-form{
+    background-color: #242424;
+    height: 586px;
 }
 
 .basic-form form 
