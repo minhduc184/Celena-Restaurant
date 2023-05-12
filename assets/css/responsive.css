@@ -15,6 +15,7 @@
         
     .items .item-description{
         font-size: 13px;
+        width: 90%;
     }
 
     .items .price-description .price{
@@ -40,14 +41,14 @@
     }
     .items .description{
         margin-top: 0;
-        height: 140px;
+        height: 193px;
     }
     .items .title-description h3{
         font-size: 17px;
     }      
     .items .item-description{
-        font-size: 12px;
-        width: 90%;
+        font-size: 14px;
+
     }
     .items .price-description .price{
         font-size: 20px;
@@ -57,8 +58,8 @@
     }
 }
 
-@media screen and (max-width:854px) {    
+@media screen and (max-width:867px) {    
     .items .item-description{
-        font-size: 11px;
+        font-size: 13px;
     }
 }
