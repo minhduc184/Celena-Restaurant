@@ -1,223 +1,64 @@
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1280px) {    
+    .header-content{
+        height: 86px;
+    }
     h1{
-        padding: 12px 0;
+        font-size: 30px;
+    }
+    a{
+
+        font-size: 17px;
+    }
+    .items .title-description h3{
+        font-size: 20px;
+    }      
+        
+    .items .item-description{
+        font-size: 13px;
     }
 
-    .header-top-right .menu{
+    .items .price-description .price{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:1024px) {    
+    .footer-sticky{
         display: none;
     }
-
-    .inner .detail{
-        padding: 0 20px;
+    .header-content-right{
+        width: 55%;
     }
-
-    
-    .inner .title h3{
-        font-size: 31px;
+    .header-content{
+        height: 70px;
     }
-
-    .inner .title p {
-        font-size: 13px;
-    }
-
-    .inner .detail p {
-        font-size: 14px;
-        font-weight: 600;
-        margin-top: 14px;
-    }
-
-    .wrap-box-text {
-        text-align: center;
-    }
-
-    .wrap-box-text p{
-        font-size: 16px;
-        font-weight: 100;
-    }
-}
-
-@media screen and (max-width:812px) {
     h1{
-        font-size: 26px;
+        font-size: 28px;
     }
-
-    .inner .detail{
-        padding: 0 11px;
-        height: 15%;
-    }
-
-    .inner .title h3{
-        font-size: 25px;
-    }
-
-    .inner .title p {
+    a{
         font-size: 12px;
-        font-weight: 400;
     }
-
-    .inner .detail p {
-        font-size: 12px;
-        margin-top: 16px;
+    .items .description{
+        margin-top: 0;
+        height: 140px;
     }
-    
-    .inner .detail i {
-        font-size: 10px;
-    }   
-
-}
-
-@media screen and (max-width:768px) {
-    .inner .title p {
-        font-size: 10px;
-        font-weight: 400;
-    }
-
-    .inner .detail{
-        padding: 0 13px;
-        height: 15%;
-    }
-
-    .inner .detail{
-        padding: 0 8px;
-    }
-
-    .inner .detail p {
-        font-size: 11px;
-        margin-top: 16px;
-    }
-
-    .inner .detail i {
-        font-size: 10px;
-    }   
-}
-
-@media screen and (max-width:736px) {
-    .inner .title p {
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .inner .detail{
-        padding: 0 20px;
-    }
-
-    .inner .detail p {
-        font-size: 14px;
-        margin-top: 15px;
-    }
-
-    .inner .detail i {
-        font-size: 13px;
-    }   
-}
-
-@media screen and (max-width:667px) {
-    .inner .detail{
-        padding: 0 17px;
-    }
-
-    .inner .detail p {
-        font-size: 14px;
-        margin-top: 12px;
-    }
-}
-
-@media screen and (max-width:600px) {
-    h1{
-        font-size: 23px;
-    }
-
-    .inner .detail{
-        padding: 0 11px;
-    }
-
-    .inner .detail p {
-        font-size: 13px;
-        margin-top: 14px;
-    }
-
-    .inner .detail i {
-        font-size: 12px;
-    }  
-}
-
-@media screen and (max-width:568px) {
-    .inner .detail{
-        padding: 0 20px;
-        width: 52%;
-        height: 20%;
-    }
-
-    .inner .detail p {
+    .items .title-description h3{
         font-size: 17px;
-        margin-top: 12px;
-    }
-}
-
-@media screen and (max-width:414px) {
-    h1{
-        font-size: 18px;
-        padding: 12px 0 12px 10px;
-    }
-
-    .inner .detail{
-        padding: 0 15px;
-    }
-
-    .inner .detail p {
-        font-size: 14px;
-        margin-top: 12px;
-    }
-
-    .inner .detail i {
-        font-size: 13px;
-    }  
-}
-
-
-@media screen and (max-width:375px) {
-    h1{
-        font-size: 16px;
-    }
-
-    .inner .detail{
-        padding: 0 9px;
-    }
-
-    .inner .detail p {
-        font-size: 14px;
-        margin-top: 14px;
-    }
-}
-
-@media screen and (max-width:320px) {
-    h1{
-        font-size: 14px;
-    }
-
-    .inner .title p{
+    }      
+    .items .item-description{
         font-size: 12px;
-        color: #fff;
-        font-weight: 600;
+        width: 90%;
     }
-
-    .inner .detail{
-        padding: 0 8px;
-        height: 15%;
+    .items .price-description .price{
+        font-size: 20px;
     }
-
-    .inner .detail p {
-        font-size: 11px;
-        margin-top: 16px;
-    }
-
-    .inner .detail i {
-        font-size: 10px;
-    }  
-
-    .wrap-box-text p{
-        font-size: 14px;
+    .nav-link{
+        font-size: 22px;
     }
 }
 
-
+@media screen and (max-width:854px) {    
+    .items .item-description{
+        font-size: 11px;
+    }
+}
