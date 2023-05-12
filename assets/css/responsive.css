@@ -63,3 +63,21 @@
         font-size: 13px;
     }
 }
+
+@media screen and (max-width:767px) {    
+    .header-sticky{
+        display: none;
+    }
+    .items .description{
+        height: 189px;
+    }
+    .items .title-description h3{
+        font-size: 24px;
+    }      
+    .items .item-description{
+        font-size: 18px;
+    }
+    .items .price-description .price{
+        font-size: 24px;
+    }
+}
