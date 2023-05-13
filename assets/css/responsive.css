@@ -175,7 +175,10 @@
     .overlay-menu li a {
         font-size: 16px;
     }
+    .button-slider {
+        font-size: 13px;
 
+    }
     .title-top h3 {
         font-size: 30px;
     }
