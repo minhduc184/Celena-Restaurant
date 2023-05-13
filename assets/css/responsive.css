@@ -76,6 +76,9 @@
     .header-content-right{
         width: 5%;
     }
+    .owl-carousel .owl-item img{
+        height: 300px;
+    }
     .items .title-description h3{
         font-size: 24px;
     }      
@@ -172,10 +175,7 @@
     .overlay-menu li a {
         font-size: 16px;
     }
-    .button-slider {
-        font-size: 10px;
-        padding: 8px 24px;
-    }
+
     .title-top h3 {
         font-size: 30px;
     }
