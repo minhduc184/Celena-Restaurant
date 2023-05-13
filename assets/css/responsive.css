@@ -96,6 +96,12 @@
     .button-slider {
         font-size: 16px;
     }
+    .owl-carousel .owl-nav button.owl-prev,.owl-nav button.owl-next{
+        width: 10%;
+    }
+    .slider .owl-dots{
+        display: none;
+    }
     .overlay-menu li a{
         font-weight: 600;
         letter-spacing: 1px;
@@ -135,5 +141,91 @@
     }
     .wrap-middle a{
         font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .header-content {
+        height: 55px;
+    }
+    .header-content-left{
+        width: 75%;
+    }
+    .header-content-right{
+        width: 10%;
+    }
+    .header-content h1 {
+        font-size: 19px;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 19px;
+        height: 1px;
+        margin: 10px 0;
+    }
+    .overlay-menu{
+        padding-top: 50px;
+    }
+    .overlay-menu li {
+        padding: 24px 16px;
+    }
+    .overlay-menu li a {
+        font-size: 16px;
+    }
+    .button-slider {
+        font-size: 10px;
+        padding: 8px 24px;
+    }
+    .title-top h3 {
+        font-size: 30px;
+    }
+    .title-top h4 {
+        font-size: 16px;
+    }
+    .nav-tabs .nav-link{
+        font-size: 18px;
+    }
+    .items .description {
+        height: 167px;
+    }
+    .items .title-description h3{
+        font-size: 16px;
+    }
+    .items .item-description {
+        font-size: 12px;
+    }
+    .items .price-description .price {
+        font-size: 20px;
+    }
+    .footer{
+        height: 211px;
+    }
+    .footer-top i{
+        font-size: 24px;
+    }
+    .footer-middle{
+        height: 60px;
+    }
+    .wrap-middle{
+        display: flex;
+        flex-wrap: wrap;
+        height: 40px;
+    }
+    .wrap-middle a{
+        font-size: 12px;
+    }
+    .wrap-middle .membership{
+        width: 50%;
+        border-left: none;
+        border-bottom:1px solid #484848;
+        justify-content: right;
+    }
+    .wrap-middle .contact{
+        width: 50%;
+        border-left: none;
+        border-bottom:1px solid #484848;
+        justify-content: left;
+    }
+    .footer-bottom{
+        height: 58%;
     }
 }
