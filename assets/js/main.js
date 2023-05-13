@@ -24,9 +24,6 @@ $(document).ready(function(){
   })
 });
 
-
-
-
 // --- API-Main --- //
 // const API_URL_MAINITEMS = "https://celena-restaurant-api.vercel.app/main-item";
 // const URL = "https://celena-restaurant-api.vercel.app";
@@ -69,6 +66,16 @@ $(document).ready(function(){
 //     content.innerHTML = htmlCode;
 //     });
 // }
+
+const overlayMenu = document.querySelector('.overlay-menu');
+const barIcon = document.querySelector('.bar-icon');
+
+console.log(barIcon);
+console.log(overlayMenu);
+
+barIcon.addEventListener('click',function(){
+    overlayMenu.classList.toggle('active-overlay');
+})
 
 
 
