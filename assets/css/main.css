@@ -150,6 +150,7 @@ li{
 .title-top h3{
     font-size: 40px;
     letter-spacing: 5px;
+    font-weight: 600;
 }
 
 .title-top h4{
@@ -297,6 +298,9 @@ li{
 .footer-bottom{
     text-align: center;
     padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-bottom p{
@@ -393,17 +397,36 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 /* --- Nav-bar --- */
 .overlay-menu{
-    width: 50%;
-    height: 100%;
+    width: 100%;
     position: fixed;
-    top: 0;
-    right: -100%;
-    background-color: #000;
+    top: -100%;
+    right: 0;
+    background-color: #242424;
     opacity: 0;
     z-index: 9;
     visibility: hidden;
     transition: all .6s;
-    padding-top: 80px;
+    padding-top: 70px;
+}
+
+.overlay-menu ul{
+    padding-left: 0;
+}
+
+.overlay-menu li{
+    width: 100%;
+    height: 41px;
+    background: #242424;
+    border-bottom: rgba(52,52,52,0.8) 1px solid;
+    display: flex;
+    align-items: center;
+    padding: 32px 16px;
+}
+
+.overlay-menu li a{
+    padding-left: 24px;
+    font-size: 24px;
+    width: 100%;
 }
 
 .btn-close{
@@ -418,7 +441,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 .active-overlay{
     visibility: visible;
-    right: 0;
+    top: 0;
     transition: all .6s;
     opacity: 1;
 }

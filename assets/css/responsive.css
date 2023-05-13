@@ -2,11 +2,10 @@
     .header-content{
         height: 86px;
     }
-    h1{
+    .header-content h1{
         font-size: 30px;
     }
-    a{
-
+    .header-content .header-content-right a{
         font-size: 17px;
     }
     .items .title-description h3{
@@ -31,13 +30,13 @@
         width: 55%;
     }
     .header-content{
-        height: 70px;
+        height: 65px;
     }
-    h1{
+    .header-content h1{
         font-size: 28px;
     }
-    a{
-        font-size: 12px;
+    .header-content .header-content-right a{
+        font-size: 14px;
     }
     .items .description{
         margin-top: 0;
@@ -64,12 +63,17 @@
     }
 }
 
-@media screen and (max-width:767px) {    
-    /* .header-sticky{
-        display: none;
-    } */
-    .items .description{
-        height: 189px;
+@media screen and (max-width:767px) {  
+    .header-content-left{
+        width: 80%;
+    }  
+    .header-content h1{
+        font-weight: 900;
+        letter-spacing: 3px;
+        font-size: 28px;
+    }
+    .header-content-right{
+        width: 5%;
     }
     .items .title-description h3{
         font-size: 24px;
@@ -78,7 +82,7 @@
         font-size: 18px;
     }
     .items .price-description .price{
-        font-size: 24px;
+        font-size: 32px;
     }
     .header-content-right .menu {
         justify-content: end;
@@ -88,5 +92,48 @@
     }
     .header-content-right .menu .bar-icon{
         display: block;
+    }
+    .button-slider {
+        font-size: 16px;
+    }
+    .overlay-menu li a{
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .nav{
+        padding-top: 0;
+    }
+    .nav-tabs .nav-link{
+        font-size: 18px;
+    }
+    .footer{
+        height: 190px;
+    }
+    .wrap-middle{
+        height: 60px;
+    }
+    .wrap-middle a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .title-top h3{
+        font-size: 50px;
+    }
+    .items .item-description{
+        font-size: 15px
+    }
+    .items .title-description h3{
+        font-size: 20px;
+    }  
+    .nav-tabs .nav-link{
+        font-size: 27px;
+    }
+    .footer-top i{
+        font-size: 32px;
+    }
+    .wrap-middle a{
+        font-size: 11px;
     }
 }
