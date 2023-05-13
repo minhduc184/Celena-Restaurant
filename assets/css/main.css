@@ -480,13 +480,13 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     background-color: #242424;
     color: #cbc7c7;
     border:1px solid #484848;
-    padding: 24px;
+    padding: 12px;
     border-radius: 10px;
 }
 
 .form-control-mobile::placeholder{
     color: #cbc7c7;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .form-control-mobile:focus{
@@ -529,7 +529,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 .form-book-table-mobile .btn-primary{
     width: 70%;
-    height: 50px;
+    padding: 8px 0;
     background: #D3D3D3;
     color: #000;
     border: 2px solid #FFFFFF;
