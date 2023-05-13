@@ -68,6 +68,10 @@ li{
     cursor: pointer;
 }
 
+.header-content-right .menu .bar-icon{
+    display: none;
+    cursor: pointer;
+}
 /* --- Slider --- */
 .slider{
     position: relative;
@@ -386,4 +390,36 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     border-radius: 5px;
 
 }
+
+/* --- Nav-bar --- */
+.overlay-menu{
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 12%;
+    right: -100%;
+    background-color: #000;
+    opacity: 0;
+    z-index: 9;
+    visibility: hidden;
+    transition: all .6s;
+}
+
+.btn-close{
+    top: 0;
+    right: 4%;
+    position: absolute;
+}
+
+.btn-close i{
+    font-size: 30px;
+}
+
+.active-overlay{
+    visibility: visible;
+    right: 0;
+    transition: all .6s;
+    opacity: 1;
+}
+
 
