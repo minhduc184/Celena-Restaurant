@@ -65,9 +65,9 @@
 }
 
 @media screen and (max-width:767px) {    
-    .header-sticky{
+    /* .header-sticky{
         display: none;
-    }
+    } */
     .items .description{
         height: 189px;
     }
@@ -79,5 +79,14 @@
     }
     .items .price-description .price{
         font-size: 24px;
+    }
+    .header-content-right .menu {
+        justify-content: end;
+    }
+    .header-content-right .menu li{
+        display: none;
+    }
+    .header-content-right .menu .bar-icon{
+        display: block;
     }
 }
