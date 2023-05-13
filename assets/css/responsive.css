@@ -10,13 +10,11 @@
     }
     .items .title-description h3{
         font-size: 20px;
-    }      
-        
+    }           
     .items .item-description{
         font-size: 13px;
         width: 90%;
     }
-
     .items .price-description .price{
         font-size: 24px;
     }
@@ -54,6 +52,9 @@
     }
     .nav-link{
         font-size: 22px;
+    }
+    .wrap-book-table-mobile{
+        display: block;
     }
 }
 
@@ -144,7 +145,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 525px) {
     .header-content {
         height: 55px;
     }

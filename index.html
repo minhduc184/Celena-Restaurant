@@ -20,32 +20,9 @@
   <!-- Import CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/responsive.css">
-
-  <style>
-
-    
-    .bar1, .bar2, .bar3 {
-      width: 25px;
-      height: 3px;
-      background-color: #fff;
-      margin: 8px 0;
-      transition: 0.4s;
-    }
-    
-    .change .bar1 {
-      transform: translate(0, 11px) rotate(-45deg);
-    }
-    
-    .change .bar2 {opacity: 0;}
-    
-    .change .bar3 {
-      transform: translate(0, -11px) rotate(45deg);
-    }
-    </style>
 </head>
 <body>
   <!-- Header -->
-
   <div class="header-sticky">
   <div class="container">
     <div class="header-content">
@@ -115,6 +92,34 @@
         
     </div>
   
+  </div>
+
+   <!-- Book-table (Tablet + Mobile) -->
+   <div class="wrap-book-table-mobile">
+    <div class="container">     
+      <form class="form-book-table-mobile">
+
+          <div class="form-group-mobile">
+            <input type="text" class="form-control-mobile" id="guestName" placeholder="*Enter name" required>
+          </div>
+          <div class="form-group-mobile">
+            <input type="date" class="form-control-mobile" id="date"  required>
+          </div>
+          <div class="form-group-mobile">
+            <input type="time" class="form-control-mobile" id="time" required>
+          </div>
+          <div class="form-group-mobile">
+            <input type="number" class="form-control-mobile" id="partySize" min="1" max="10" placeholder="*Party size 1-10" required>
+          </div>
+          <div class="larger-group-mobile">
+            <p>Larger group? </p>
+            <a href="/book-table.html">Enquire here</a>
+          </div>
+          <button type="submit" class="btn btn-primary">BOOK A TABLE</button>
+
+        
+      </form>  
+    </div>
   </div>
 
   <!-- Main -->
@@ -1033,9 +1038,7 @@
     
   </div>
 
-  <script>
-   
-  </script>
+
 
   
 
