@@ -396,13 +396,14 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     width: 50%;
     height: 100%;
     position: fixed;
-    top: 12%;
+    top: 0;
     right: -100%;
     background-color: #000;
     opacity: 0;
     z-index: 9;
     visibility: hidden;
     transition: all .6s;
+    padding-top: 80px;
 }
 
 .btn-close{
