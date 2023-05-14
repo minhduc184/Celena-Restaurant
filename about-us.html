@@ -20,44 +20,49 @@
   <!-- Import CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/aboutus.css">
-  <!-- <link rel="stylesheet" href="/assets/css/responsive.css"> -->
+  <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 <body>
   <!-- Header -->
-
   <div class="header-sticky">
-  <div class="container">
-    <div class="header-content">
-  
-        <a href="/index.html" class="header-content-left">
-          <div class="title">
-            <h1>CELINA RESTAURANT</h1>
+    <div class="container">
+      <div class="header-content">
+    
+          <a href="/index.html" class="header-content-left">
+            <div class="title">
+              <h1>CELINA RESTAURANT</h1>
+            </div>
+          </a>
+          
+          <div class="header-content-right">
+            <ul class="menu">
+              <li>
+                <a href="/book-table.html" class="book-a-table">BOOK A TABLE</a>
+              </li>
+              <li>
+                <a href="/about-us.html" class="spring">ABOUT US</a>
+              </li>
+              <li>
+                <a href="/event.html" class="summer">EVENT</a>
+              </li>
+              <li>
+                <a href="/membership.html" class="autumn">MEMBERSHIP</a>
+              </li>
+              <li>
+                <a href="/contact.html" class="winter">CONTACT</a>
+              </li>
+              <li class="bar-icon" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+              </li>
+            </ul>
           </div>
-        </a>
-        
-        <div class="header-content-right">
-          <ul class="menu">
-            <li>
-              <a href="/book-table.html" class="book-a-table">BOOK A TABLE</a>
-            </li>
-            <li>
-              <a href="/about-us.html" class="spring">ABOUT US</a>
-            </li>
-            <li>
-              <a href="/event.html" class="summer">EVENT</a>
-            </li>
-            <li>
-              <a href="/membership.html" class="autumn">MEMBERSHIP</a>
-            </li>
-            <li>
-              <a href="/contact.html" class="winter">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-        
-  
+          
+          
+    
+      </div>
     </div>
-  </div>
   </div>
 
   <!-- Main -->
@@ -97,11 +102,11 @@
 
       <div class="footer-middle">
         <div class="wrap-middle">
-          <a href="/book-table.html">BOOK A TABLE</a>
-          <a href="/about-us.html" class="about-us">ABOUT US</a>
-          <a href="/event.html">EVENT</a>
-          <a href="/membership.html" class="membership">MEMBERSHIP</a>
-          <a href="/contact.html">CONTACT</a>
+          <a class="bookatable" href="/book-table.html">BOOK A TABLE</a>
+          <a class="about-us" href="/about-us.html" >ABOUT US</a>
+          <a class="event" href="/event.html">EVENT</a>
+          <a class="membership" href="/membership.html">MEMBERSHIP</a>
+          <a class="contact" href="/contact.html">CONTACT</a>
         </div>
       </div>
       <div class="footer-bottom">
@@ -115,28 +120,55 @@
     <div class="container">
       
       <form class="book-table">
-        <div class="form-group">
-          <input type="text" class="form-control" id="guestName" placeholder="*Enter name" required>
+        <div class="book-table-left">
+          <div class="form-group">
+            <input type="text" class="form-control" id="guestName" placeholder="*Enter name" required>
+          </div>
+          <div class="form-group">
+            <input type="date" class="form-control" id="date"  required>
+          </div>
+          <div class="form-group">
+            <input type="time" class="form-control" id="time" required>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="partySize" min="1" max="10" placeholder="*Party size 1-10" required>
+          </div>
         </div>
-        <div class="form-group">
-          <input type="date" class="form-control" id="date"  required>
+        
+
+        <div class="book-table-right">
+          <div class="larger-group">
+            <p>Larger group? </p>
+            <a href="/book-table.html">Enquire here</a>
+          </div>
+          <button type="submit" class="btn btn-primary">BOOK A TABLE</button>
         </div>
-        <div class="form-group">
-          <input type="time" class="form-control" id="time" required>
-        </div>
-        <div class="form-group">
-          <input type="number" class="form-control" id="partySize" min="1" max="10" placeholder="*Party size 1-10" required>
-        </div>
-        <div class="larger-group">
-          <p>Larger group? </p>
-          <a href="/book-table.html">Enquire here</a>
-        </div>
-        <button type="submit" class="btn btn-primary">BOOK A TABLE</button>
+        
       </form>
     
     </div>
   </div>
 
+  <!-- Nav-bar -->
+  <div class="overlay-menu">
+    <ul>
+      <li>
+        <a href="/book-table.html" class="book-a-table">BOOK A TABLE</a>
+      </li>
+      <li>
+        <a href="/about-us.html" class="spring">ABOUT US</a>
+      </li>
+      <li>
+        <a href="/event.html" class="summer">EVENT</a>
+      </li>
+      <li>
+        <a href="/membership.html" class="autumn">MEMBERSHIP</a>
+      </li>
+      <li>
+        <a href="/contact.html" class="winter">CONTACT</a>
+    </ul>
+    
+  </div>
 
   <!-- Import thu vien axios --> 
   <script src="/lib/axios.min.js"></script>

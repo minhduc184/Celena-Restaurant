@@ -27,16 +27,16 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    width: 21%;
+    width: 26%;
 }
 
 .book-table-description h3{
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .book-table-description h4{
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 

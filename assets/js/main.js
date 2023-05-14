@@ -82,6 +82,7 @@ barIcon.addEventListener('click',function(){
 //     });
 // }
 
-
+// --- Form-Validate --- //
+// Form validation code will come here.
 
 
