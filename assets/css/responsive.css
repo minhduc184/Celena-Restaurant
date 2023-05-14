@@ -108,8 +108,42 @@
         height: 971px;
     }
     /* --- Event --- */
+    .wrap-content-slider{
+        top: 47%;
+    }
+    .wrap-content-slider h3{
+        margin-bottom: 16px;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        width: 7%;
+    }
+    .owl-theme .owl-dots{
+        display: none;
+    }
+    .slider-event .owl-carousel .owl-item img{
+        height: 1200px;
+    }
+    .wrap-content-slider .content-slider{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap-content-slider .content-slider-left{
+        width: 100%;
+        height: 60%;
+    }
+    .wrap-content-slider .content-slider-right{
+        width: 100%;
+        height: 40%;
+    }
+    .content-slider-title h3{
+        margin-top: 8px;
+    }
+    .content-slider-title span{
+        border-bottom: 2px solid #cda45e;
+        font-size: 26px;
+    }
     .content-slider-description p{
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
@@ -141,8 +175,11 @@
         font-size: 17px;
     }
     /* --- Event --- */
-    .content-slider-description p{
-        font-size: 13px;
+    .wrap-content-slider .content-slider-left{
+        height: 50%;
+    }
+    .wrap-content-slider .content-slider-right{
+        height: 50%;
     }
 }
 
@@ -231,22 +268,6 @@
     .wrap-content-slider h3{
         font-size: 24px;
     }
-    .slider-event .owl-carousel .owl-item img{
-        height: 490px;
-    }
-    .slider-event .owl-dots{
-        display: none;
-    }
-    .content-slider-description p{
-        font-size: 10px;
-    }
-    .content-slider-title h3 {
-        font-size: 19px;
-        margin-bottom: 0;
-    }
-    .content-slider-title h4 {
-        font-size: 20px;
-    }
 }
 
 @media screen and (max-width: 625px) {
@@ -289,12 +310,7 @@
         font-size: 14px;
     }
     /* --- Event --- */
-    .content-slider-description p{
-        font-size: 9px;
-    }
-    .wrap-content-slider h3 {
-        font-size: 20px;
-    }
+    
 }
 
 @media screen and (max-width: 525px) {
@@ -410,12 +426,5 @@
         font-size: 12px;
     }      
     /* --- Event --- */
-    .content-slider-description p{
-        font-size: 8px;
-        margin-bottom: 8px;
-    } 
-    .wrap-content-slider h3 {
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
+   
 }

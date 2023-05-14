@@ -73,6 +73,11 @@
     color: #fff; 
 }
 
+.wrap-content-slider h3 span{
+    color: yellow;
+}
+
+
 .content-slider{
     width: 100%;
     height: 90%;
@@ -97,11 +102,6 @@
     font-size: 28px;
     letter-spacing: 3px;
     margin-bottom: 0;
-}
-
-.content-slider-title h4{
-    letter-spacing: 3px;
-    font-size: 28px;
 }
 
 .content-slider-description p{
