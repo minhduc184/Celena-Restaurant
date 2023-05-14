@@ -46,6 +46,10 @@ li{
     background-color: black;
 }
 
+.header-content-left .title h1{
+    margin-bottom: 0;
+}
+
 .header-content-right{
     width: 50%;
     height: 100%;
