@@ -158,8 +158,8 @@
     .header-content-right{
         width: 5%;
     }
-    .slider-event .owl-carousel .owl-item img{
-        height: 490px;
+    .owl-carousel .owl-item img{
+        height: 300px;
     }
     .items .title-description h3{
         font-size: 24px;
@@ -230,6 +230,9 @@
     /* --- Event --- */
     .content-slider-description p{
         font-size: 12px;
+    }
+    .slider-event .owl-carousel .owl-item img{
+        height: 490px;
     }
 }
 
