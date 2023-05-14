@@ -38,6 +38,10 @@
         font-size: 31px;
         font-weight: 600;
     }
+    /* --- Event --- */
+    .content-slider-description p{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:1024px) {    
@@ -103,6 +107,10 @@
     .wrap-content {
         height: 971px;
     }
+    /* --- Event --- */
+    .content-slider-description p{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:867px) {    
@@ -117,7 +125,6 @@
         height: 300px;
     }  
     /* --- About-us --- */
-
     .about-us-title h3 {
         font-size: 40px;
     }
@@ -132,6 +139,10 @@
     }
     .content-right-top p{
         font-size: 17px;
+    }
+    /* --- Event --- */
+    .content-slider-description p{
+        font-size: 13px;
     }
 }
 
@@ -216,6 +227,10 @@
     .wrap-content {
         margin-top: 16px;
     }
+    /* --- Event --- */
+    .content-slider-description p{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 625px) {
@@ -290,8 +305,8 @@
         font-size: 13px;
     }
     .owl-carousel .owl-item img {
-        height: 251px;
-    }
+    height: 251px;
+}
     .title-top h3 {
         font-size: 30px;
     }
