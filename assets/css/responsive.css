@@ -134,6 +134,7 @@
     .wrap-content-slider .content-slider-right{
         width: 100%;
         height: 40%;
+        padding-left: 12px;
     }
     .content-slider-title h3{
         margin-top: 8px;

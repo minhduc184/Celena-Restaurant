@@ -5,14 +5,14 @@ $(document).ready(function(){
       margin:0,
       nav:true,
       autoplay: true,
-      autoplayTimeout: 3000,
+      autoplayTimeout: 5000,
       dots: true,
       responsive:{
           0:{
               items:1
           },
           300: {
-            items: 1
+                items: 1
           },
           600:{
               items:1
