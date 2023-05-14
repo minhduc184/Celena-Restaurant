@@ -115,7 +115,7 @@
         margin-bottom: 16px;
     }
     .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
-        width: 7%;
+        display: none;
     }
     .owl-theme .owl-dots{
         display: none;
