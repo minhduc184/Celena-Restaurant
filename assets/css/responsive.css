@@ -292,6 +292,9 @@
     .content-slider-description p{
         font-size: 9px;
     }
+    .wrap-content-slider h3 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 525px) {
@@ -410,4 +413,7 @@
     .content-slider-description p{
         font-size: 7px;
     } 
+    .wrap-content-slider h3 {
+        font-size: 16px;
+    }
 }
