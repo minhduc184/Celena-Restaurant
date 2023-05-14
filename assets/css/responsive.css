@@ -288,7 +288,9 @@
     }
     .button-slider {
         font-size: 13px;
-
+    }
+    .owl-carousel .owl-item img {
+        height: 251px;
     }
     .title-top h3 {
         font-size: 30px;
