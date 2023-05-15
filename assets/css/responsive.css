@@ -441,7 +441,7 @@
     }
     .owl-carousel .owl-item img {
     height: 251px;
-}
+    }
     .title-top h3 {
         font-size: 30px;
     }
@@ -528,5 +528,10 @@
     /* --- Contact --- */
     .left-contact{
         width: 79%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .left-contact{
+        width: 97%;
     }
 }
