@@ -476,7 +476,6 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 .form-book-table-mobile{
     display: flex;
     flex-direction: column;
-    margin-top: 3px;
     background-color: #242424;
 }
 .form-control-mobile{
